@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(80deg, rgb(13, 103, 221), rgb(192, 55, 162));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 350px;
+    height: 350px;
+    background: url("./back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px gray;
+    padding: 10px;
+}
+.top{
+    display: flex;
+}
+.top h1{
+    color: white;
+    padding-top: 20px;
+    font-size: 45px;
+}
+.top img{
+    width: 150px;
+    height: 150px;
+    margin-top: 60px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.content p{
+    color: white;
+    font-size: 20px;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    padding:5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px grey ;
+    background: linear-gradient(80deg, rgb(13, 103, 221), rgb(192, 55, 162));
+}
+.footer button{
+    padding: 10px;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+    background-color:white;
+    color: red;
+}
+i{
+    font-size: 20px;
+    color: white;
+    padding-top: 5px;
+    margin-left: 5px;
+    transition: all 1s ease;
+}
+i:hover{
+    color: black;
+    cursor: pointer;
+}
